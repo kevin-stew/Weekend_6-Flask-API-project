@@ -1,0 +1,63 @@
+{
+	"name": "Roxy",
+	"description": "A friendly, fluffy dog",
+	"competitions_attended": 2,
+	"notable_quality": "Small child friendly",
+	"date_created": "2022-02-11",
+	"owner": "Bob"			
+}
+
+{
+	"name": "Fred",
+	"description": "The best dog in the world",
+	"competitions_attended": 6,
+	"notable_quality": "Excellent hunting companion",
+	"date_created": "2016-10-06",
+	"owner": "Frank"			
+}
+
+{
+	"name": "Pong",
+	"description": "A delightful old Pug dog",
+	"competitions_attended": 0,
+	"notable_quality": "very loyal",
+	"date_created": "2012-05-15",
+	"owner": "Bill"			
+}
+
+{
+	"name": "no-name",
+	"description": "a dog for testing and deleting purposes",
+	"competitions_attended": 40,
+	"notable_quality": "disposable",
+	"date_created": "2022-02-13",
+	"owner": "X Corp"			
+}
+
+
+
+-------------------DOG_CHARACTERISTICS-------------------
+{
+	>>"id": SERIAL<<,  				(Integer)
+	"name": "Roxy",					(String)	
+	"description": "A firnedly, fluffy dog",	(String)
+	"competitions_attended": 2,			(Integer)
+	"notable_quality": "Family friendly",		(String)
+	"date_created": "MM:DD:YY",			(DateTime w/ datetime.utcnow)
+	"owner": "Bob",					(FK to User using the user's token)			
+
+}
+
+
+-------------------USER_CHARACTERISTICS------------------
+
+{
+	>>"id": SERIAL<<,  		(uuid)
+	"name": "Bob",			(String)	
+	"email": "bob@email.com",	(String)
+	"password": "#####",		(String)[Hashed]
+	"token": "######",		(String)[secret]
+	"date_created": "MM:DD:YY",	(DateTime w/ datetime.utcnow)
+	"dog": "-----", 		(relationship)				
+
+}

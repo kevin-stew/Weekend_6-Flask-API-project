@@ -1,0 +1,146 @@
+/* * {
+    border: 1px red solid;
+} */
+
+/* Navbar START*/
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Taret Main Logo image */
+.ct-nav img{
+    width: 25%;
+    max-width: 100%;
+    margin-right: 2vw;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid green;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+/* Navbar END */
+
+
+/* Start of hero/header section */
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width:82%;
+    max-width: 100%;
+}
+
+/* End of Hero/Header Section */
+
+
+/* Middle Section START */
+#middle-text{
+    text-align: center;
+    padding: 5vh;
+}
+
+#middle-text h2{
+    padding: 1.5vw;
+}
+/* Middle Section END */
+
+/* Features Section START */
+#api-image, #graphql, #database-image{
+    margin-bottom: 8vh;
+}
+
+#feature{
+    flex-direction: row;
+    padding-bottom: 5vh;
+}
+
+#features-section{
+    margin: 8vw;
+    align-items: flex-end;
+    
+}
+
+/* #dogowners{
+    max-width: 100%;
+} */
+
+#mask1{
+    margin-top: 5vh;
+    padding-top: 1vh;
+    background: rgba(255, 255, 255, 0.73);
+    max-height: 200px;
+    border-radius: 5px;
+}
+/* Features Section END */
+
+
+/* COmmunity Section Styles */
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer{
+    border-top: 2px solid black;
+    padding-top: 3vh;
+    margin-top: 5vh;
+    margin-left: 0px;
+    justify-content: space-between;
+}
+
+#footer img{
+    max-height: 75%;
+    opacity: 80%;
+}
+
+#featuredog{
+    max-width: 100%;
+}
+
+
+
+.hero-section{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(30, 115,172, 0.7), rgba(142, 57, 153, 0.6)), url(../images/dogs_playing.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: black;
+}
+
+#welcometext{
+    font-size: xx-large;
+    color: white;
+}

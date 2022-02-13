@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<header class="row">
+    <div class="col-12 col-md-6" id="header-text">
+        <h2>Let's build the future of digital dog ownership together!</h2>
+        <h5>Create an API tool for online dog ownership & collecting</h5>
+        <div>
+            <button class="btn btn-success">View Our Docs</button>
+            <button class="btn btn-success">Join Our Slack</button>
+        </div>
+    </div>
+    <!--START Header Image-->
+    <div class="col-12 col-md-6">
+        <img class="header-image" src="../../static/images/dog_group1.png" alt="Hero Header Image">
+    </div>
+</header>
+
+    <!--END Header Section-->
+
+    <!-- START Middle Section-->
+    <section class="row">
+        <div class="col-12" id="middle-text">
+            <h2>Display your digital dogs</h2>
+            <p>Embrace your inner dog while harnessing the power of an API to expand your K-9 collection.</p>
+        </div>
+    </section>
+    <!-- END Middle section-->
+
+    <!-- START Colection Features Section-->
+    <section class="row" id="features-section">
+        
+            <div class="col-12 col-md-4">
+                <img src="../../static/images/appenzeller_sennenhund.jpg" alt="a dog" id="featuredog">
+                <h4>Dedicated K-9 API Routes, ABA certified </h4>
+                <p>If you enjoy traditional API routes, we have those for you</p>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <img src="../../static/images/scratching.png" alt="afghan_hound_image" id="featuredog">
+                <h4>GraphQL API Route, dog-version-controll 2.0</h4>
+                <p>If you want data all from one endpoint we have that too.</p>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <img src="../../static/images/american_water-spaniel.jpg" alt="database-image" id="featuredog">
+                <h4>Back by PostgreSQL Database</h4>
+                <p>All data will be stored in a secure PostGres Database</p>
+            </div>
+        
+        <!-- END of Collection features-->
+        
+        <!-- START Community Section -->
+        <section class="row">
+            <div class="col-12 col-md-6">
+                <img src="../../static/images/dog_owners.png" alt="water-spaniel-image" id="dogowners">
+            </div>
+
+            <div class="col-12 col-md-6" id="mask1">
+                <h4>Connect with other dog collectors</h4>
+                <p>Talk with other dog owners around the world and collab 
+                    on projects with your dog data. Join our Slack channel
+                    and give a start to the project on Github, or at your local kennel. 
+                </p>
+
+                <div>
+                    <button class="btn btn-success">View on Github</button>
+                    <button class="btn btn-success">Join Our Slack</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- END Community Section -->
+        
+        
+        <!-- START Footer -->
+        <footer class="row" id="footer">
+            <div class="col-2 col-md-2">
+                <img src="../../static/images/firsbee.jpg" alt="frisbee" id="frisbee">
+            </div>
+
+
+                <!-- col-2 col-md-4 -->
+            <div class="col-2 col-md-4"> 
+                <div class="foot-text-flex">
+                    <h4>Dogform</h4>
+                    <p>Why Dogs?</p>
+                    <p>The Coding Dog Project</p>
+                    <p>Donate</p>
+                    <p>Spread the Word</p>
+                    <p>Our Process</p>
+                    <p>Harness the power of a dog-based API</p>
+                </div>
+            </div>
+
+        </footer>
+    
+</div>
+
+{% endblock content %}

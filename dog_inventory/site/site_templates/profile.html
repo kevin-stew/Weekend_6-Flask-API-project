@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<header class="hero-section">
+    <h3 id=welcometext class="header-text">Bow-WOW!! Welcome to Coding Dogs! {{ current_user.email }} </h3>
+</header>
+
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item">Email: {{ current_user.email }}</li>
+        <li class="list-group-item">Token: {{ current_user.token }}</li>
+
+        <!-- TODO add access key -->
+
+    </ul>
+</div>
+
+{% endblock content %}
