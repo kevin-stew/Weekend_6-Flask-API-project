@@ -1,7 +1,5 @@
 # Dog API Project
-
-## Deployment
-- Deployed on Heroku
+- A dog-themed alternative to the Marvel API weekend project
 
 ## Running on Local Machine
 
